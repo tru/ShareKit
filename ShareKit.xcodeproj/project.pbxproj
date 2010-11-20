@@ -106,6 +106,13 @@
 		43D1DEF011D5CDD200550D75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D1DEEF11D5CDD200550D75 /* SystemConfiguration.framework */; };
 		43EF406E11D3FFF800B1F700 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EF406D11D3FFF800B1F700 /* Security.framework */; };
 		43FF9C7412270E9F00ADE53C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43FF9C7212270E9F00ADE53C /* Localizable.strings */; };
+		615FF1EC1296769B0046F423 /* SHKMobilblogg.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF1EB1296769B0046F423 /* SHKMobilblogg.m */; };
+		615FF21E12967B360046F423 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF21212967B360046F423 /* NSObject+SBJSON.m */; };
+		615FF21F12967B360046F423 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF21412967B360046F423 /* NSString+SBJSON.m */; };
+		615FF22012967B360046F423 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF21612967B360046F423 /* SBJsonBase.m */; };
+		615FF22112967B360046F423 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF21812967B360046F423 /* SBJsonParser.m */; };
+		615FF22212967B360046F423 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF21A12967B360046F423 /* SBJsonStreamWriter.m */; };
+		615FF22312967B360046F423 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 615FF21C12967B360046F423 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -310,6 +317,22 @@
 		43EF406D11D3FFF800B1F700 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		43FF9C7312270E9F00ADE53C /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Classes/ShareKit/Localization/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		43FF9C7512270EB900ADE53C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Classes/ShareKit/Localization/de.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		615FF1EB1296769B0046F423 /* SHKMobilblogg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKMobilblogg.m; sourceTree = "<group>"; };
+		615FF1EF129677F20046F423 /* SHKMobilblogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKMobilblogg.h; sourceTree = "<group>"; };
+		615FF21012967B360046F423 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		615FF21112967B360046F423 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		615FF21212967B360046F423 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		615FF21312967B360046F423 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		615FF21412967B360046F423 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		615FF21512967B360046F423 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		615FF21612967B360046F423 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		615FF21712967B360046F423 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		615FF21812967B360046F423 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		615FF21912967B360046F423 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		615FF21A12967B360046F423 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		615FF21B12967B360046F423 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		615FF21C12967B360046F423 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		615FF21D12967B360046F423 /* SBProxyForJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBProxyForJson.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ShareKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ShareKit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -720,6 +743,7 @@
 		43A536C011DBE3B9004A1712 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				615FF1EA1296769B0046F423 /* Mobilblogg */,
 				43A536C111DBE3B9004A1712 /* Delicious */,
 				4379F2891291AC9700D2A41E /* Evernote */,
 				43A536C411DBE3B9004A1712 /* Facebook */,
@@ -891,6 +915,37 @@
 			name = Localization;
 			sourceTree = "<group>";
 		};
+		615FF1EA1296769B0046F423 /* Mobilblogg */ = {
+			isa = PBXGroup;
+			children = (
+				615FF20F12967B360046F423 /* JSON */,
+				615FF1EB1296769B0046F423 /* SHKMobilblogg.m */,
+				615FF1EF129677F20046F423 /* SHKMobilblogg.h */,
+			);
+			path = Mobilblogg;
+			sourceTree = "<group>";
+		};
+		615FF20F12967B360046F423 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				615FF21012967B360046F423 /* JSON.h */,
+				615FF21112967B360046F423 /* NSObject+SBJSON.h */,
+				615FF21212967B360046F423 /* NSObject+SBJSON.m */,
+				615FF21312967B360046F423 /* NSString+SBJSON.h */,
+				615FF21412967B360046F423 /* NSString+SBJSON.m */,
+				615FF21512967B360046F423 /* SBJsonBase.h */,
+				615FF21612967B360046F423 /* SBJsonBase.m */,
+				615FF21712967B360046F423 /* SBJsonParser.h */,
+				615FF21812967B360046F423 /* SBJsonParser.m */,
+				615FF21912967B360046F423 /* SBJsonStreamWriter.h */,
+				615FF21A12967B360046F423 /* SBJsonStreamWriter.m */,
+				615FF21B12967B360046F423 /* SBJsonWriter.h */,
+				615FF21C12967B360046F423 /* SBJsonWriter.m */,
+				615FF21D12967B360046F423 /* SBProxyForJson.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1052,6 +1107,13 @@
 				4379F2C11291AC9700D2A41E /* SHKEvernote.m in Sources */,
 				4379F2EA1291AE5700D2A41E /* NSData+md5.m in Sources */,
 				4379F3B21291C45700D2A41E /* SHKTextMessage.m in Sources */,
+				615FF1EC1296769B0046F423 /* SHKMobilblogg.m in Sources */,
+				615FF21E12967B360046F423 /* NSObject+SBJSON.m in Sources */,
+				615FF21F12967B360046F423 /* NSString+SBJSON.m in Sources */,
+				615FF22012967B360046F423 /* SBJsonBase.m in Sources */,
+				615FF22112967B360046F423 /* SBJsonParser.m in Sources */,
+				615FF22212967B360046F423 /* SBJsonStreamWriter.m in Sources */,
+				615FF22312967B360046F423 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
